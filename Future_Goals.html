@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Goals</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: lightcyan;
+        }
+
+        header {
+            background-color: teal;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .header-content h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            font-size: 1em;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: darkcyan;
+        }
+
+        main {
+            background-image: url("image copy 8.png");
+            background-size: cover;
+            background-attachment: fixed;
+            padding: 20px;
+            min-height: 75vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        main h2 {
+            color: blue;
+            margin-bottom: 10px;
+        }
+
+        main h3 {
+            color: blue;
+            margin: 5px 0;
+            
+        }
+
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: teal;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: darkcyan;
+        }
+
+        @media (max-width: 768px) {
+            .header-content h1 {
+                font-size: 2em;
+            }
+
+            nav ul li a {
+                font-size: 0.9em;
+                padding: 8px 12px;
+            }
+
+            main {
+                padding: 15px;
+            }
+
+            button {
+                font-size: 14px;
+                padding: 8px 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header-content h1 {
+                font-size: 1.5em;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li a {
+                font-size: 0.8em;
+                padding: 6px 10px;
+            }
+
+            main {
+                padding: 10px;
+            }
+
+            button {
+                font-size: 12px;
+                padding: 6px 12px;
+            }
+
+            main h2 {
+                font-size: 1.5em;
+            }
+
+            main h3 {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Future Goals</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="about_me.html">About me</a></li>
+                <li><a href="Academic_profile.html">Academic Profile</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2><u>Professional Goals</u></h2>
+        <h3>Securing a job in a reputable company in my field of study</h3>
+        <h3>Aiming for positions such as Software Developer, Data Scientist, Systems Engineer, etc.</h3>
+        <h3>Working in Research and Development departments of companies</h3>
+        <h3>Obtaining certifications in relevant technologies or methodologies</h3>
+        <h3>Engaging in projects that have a social impact</h3>
+        <h2><u>Personal Goals</u></h2>
+        <h3>Achieving a balance between professional and personal life</h3>
+        <h3>Taking care of my parents and family members</h3>
+        <h3>Pursuing hobbies and interests alongside my career</h3>
+    </main>
+    <button onclick="window.location.href='index.html'">Back to Home</button>
+</body>
+</html>

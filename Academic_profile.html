@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: lightcyan;
+        }
+
+        header {
+            background-color: teal;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .header-content h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            font-size: 1em;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: darkcyan;
+        }
+
+        table, tr, th {
+            border: 2px solid black;
+            padding: 12px 15px;
+            color: blue;
+        }
+
+        #edu_table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 12px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        main h2 {
+            text-align: center;
+            color: teal;
+        }
+
+        #skill {
+            text-align: center;
+            color: blue;
+        }
+
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: teal;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: darkcyan;
+        }
+
+        h1 {
+            color: white;
+            font-size: 3em;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            table, tr, th {
+                padding: 8px;
+                font-size: 16px;
+            }
+
+            button {
+                font-size: 14px;
+                padding: 8px 16px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li a {
+                font-size: 0.9em;
+                padding: 8px 12px;
+            }
+
+            table, tr, th {
+                padding: 6px;
+                font-size: 14px;
+            }
+
+            button {
+                font-size: 12px;
+                padding: 6px 12px;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>My Academic Profile</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="about_me.html">About me</a></li>
+                <li><a href="Future_Goals.html">Future Goals</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="education">
+            <h2><u>Education</u></h2>
+            <table id="edu_table" border="1">
+                <tr>
+                    <th>Degree</th>
+                    <th>Institute/Board</th>
+                    <th>CGPA/Percentage</th>
+                    <th>YEAR</th>
+                </tr>
+                <tr>
+                    <td>B.Tech</td>
+                    <td>SRM University</td>
+                    <td>9.00</td>
+                    <td>2022-2026</td>
+                </tr>
+                <tr>
+                    <td>Intermediate</td>
+                    <td>Narayana Jr College</td>
+                    <td>97.8</td>
+                    <td>2020-2022</td>
+                </tr>
+                <tr>
+                    <td>Board Examination</td>
+                    <td>Don Bosco High School</td>
+                    <td>100</td>
+                    <td>2019</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <div id="skill">
+                <h2><u>Skills</u></h2>
+                <h4>HTML/CSS</h4>
+                <h4>JavaScript</h4>
+                <h4>C/C++/Python</h4>
+                <h4>Data Structures</h4>
+            </div>
+        </section>
+    </main>
+    <button onclick="window.location.href='index.html'">Back to Home</button>
+</body>
+</html>
